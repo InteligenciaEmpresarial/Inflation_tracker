@@ -176,7 +176,7 @@ fig3.update_traces(line_color=c_l)
 
 fig3.update_yaxes(title=None)
 fig3.update_xaxes(title=None)
-fig3.update_xaxes(tickangle=-90)
+# fig3.update_xaxes(tickangle=-90)
 fig3.update_layout(
     yaxis_tickformat = '.1%')
 
