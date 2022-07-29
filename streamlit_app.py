@@ -142,7 +142,7 @@ fig2.add_hline(y=0.0, line_width=1, line_dash="dash", line_color="red")
 
 fig2.update_yaxes(title=None)
 fig2.update_xaxes(title=None)
-
+fig2.update_xaxes(tickangle=-90)
 # range slider
 fig2.update_layout(
     xaxis=dict(
@@ -176,7 +176,7 @@ fig3.update_traces(line_color=c_l)
 
 fig3.update_yaxes(title=None)
 fig3.update_xaxes(title=None)
-
+fig3.update_xaxes(tickangle=-90)
 fig3.update_layout(
     yaxis_tickformat = '.1%')
 
