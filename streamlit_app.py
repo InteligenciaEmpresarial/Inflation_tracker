@@ -10,7 +10,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 import streamlit.components.v1 as components
-from fpdf import FPDF
+# from fpdf import FPDF
 from tempfile import NamedTemporaryFile
 import base64
 #%% settings
@@ -44,15 +44,15 @@ En esta página puedes monitorear la variación anual y mensual de los precios d
 
 # datos
 
-df_anual = pd.read_csv("https://raw.githubusercontent.com/InteligenciaEmpresarial/Inflation_tracker/main/InflacionAnual.csv")
+df_anual = pd.read_csv("https://raw.githubusercontent.com/InteligenciaEmpresarial/Inflation_tracker/main/InflacionAnual.csv", sep=';')
 df_anual = df_anual.set_index('mes')
 
-df_mensual = pd.read_csv("https://raw.githubusercontent.com/InteligenciaEmpresarial/Inflation_tracker/main/InflacionMensual.csv")
+df_mensual = pd.read_csv("https://raw.githubusercontent.com/InteligenciaEmpresarial/Inflation_tracker/main/InflacionMensual.csv", sep=';')
 df_mensual = df_mensual.set_index('mes')
 temp_df = df_mensual.copy()
 temp_df.pop('TODOS LOS PRODUCTOS (INFLACION GENERAL)')
 
-df_cum = pd.read_csv("https://raw.githubusercontent.com/InteligenciaEmpresarial/Inflation_tracker/main/InflacionAcumulada.csv")
+df_cum = pd.read_csv("https://raw.githubusercontent.com/InteligenciaEmpresarial/Inflation_tracker/main/InflacionAcumulada.csv", sep=';')
 df_cum = df_cum.set_index('mes')
 
 #%%
