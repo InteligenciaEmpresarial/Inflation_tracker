@@ -114,7 +114,7 @@ fig1.update_layout(
 
 fig1.add_layout_image(
     dict(
-        source="https://raw.githubusercontent.com/EnexFG/inflation_tracker/main/Imagenes/IE_resize.png",
+        source="https://raw.githubusercontent.com/InteligenciaEmpresarial/Inflation_tracker/main/Imagenes/IE_resize.png",
         xref="paper", yref="paper",
         x=1, y=1.01,
         sizex=0.25, sizey=0.25,
@@ -151,7 +151,7 @@ fig2.update_layout(
 
 fig2.add_layout_image(
     dict(
-        source="https://raw.githubusercontent.com/EnexFG/inflation_tracker/main/Imagenes/IE_resize.png",
+        source="https://raw.githubusercontent.com/InteligenciaEmpresarial/Inflation_tracker/main/Imagenes/IE_resize.png",
         xref="paper", yref="paper",
         x=1, y=1.01,
         sizex=0.25, sizey=0.25,
@@ -181,7 +181,7 @@ fig3.update_layout(
 
 fig3.add_layout_image(
     dict(
-        source="https://raw.githubusercontent.com/EnexFG/inflation_tracker/main/Imagenes/IE_resize.png",
+        source="https://raw.githubusercontent.com/InteligenciaEmpresarial/Inflation_tracker/main/Imagenes/IE_resize.png",
         xref="paper", yref="paper",
         x=1, y=1.05,
         sizex=0.15, sizey=0.15,
