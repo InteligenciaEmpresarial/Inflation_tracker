@@ -103,7 +103,7 @@ fig1.add_hline(y=0.0, line_width=1, line_dash="dash", line_color="red")
 
 fig1.update_yaxes(title=None)
 fig1.update_xaxes(title=None)
-fig1.update_xaxes(tickangle=180)
+fig1.update_xaxes(tickangle=100)
 
 # range slider
 fig1.update_layout(
